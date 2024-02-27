@@ -39,6 +39,16 @@
     background-color: rgb(6, 171, 6);
   }
 }
+@media(max-width:780px){
+  .icons {
+    display: none;
+  }
+}
+@media(max-width:484px){
+  .icons {
+    display: none;
+  }
+}
 @media(max-width:360px){
   .icons {
     display: none;
