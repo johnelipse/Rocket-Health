@@ -1,0 +1,110 @@
+.opening-section {
+  background-color: $primary-color;
+  header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .right {
+    display: flex;
+    gap: 3rem;
+    a {
+      color: white;
+    }
+  }
+  .aboutus {
+    position: relative;
+    .new {
+      background-color: #e94f40;
+      color: white;
+      font-weight: bolder;
+      padding: 0.1rem 0.2rem;
+      border-radius: 0.3rem;
+      width: 50%;
+      height: 89%;
+      font-size: 12px;
+      position: absolute;
+      top: -35%;
+      left: 99%;
+    }
+  }
+  img {
+    height: 3.5rem;
+    object-fit: cover;
+  }
+  .images {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    // background-color: red;
+    height: 80%;
+    padding: 0 4rem;
+    .description {
+      width: 50%;
+      height: 100%;
+      h3 {
+        color: white;
+        font-size: 3.5rem;
+      }
+      .bxs-chevron-right {
+        border-radius: 50%;
+        color: white;
+        font-size: 3rem;
+        margin-left: 4rem;
+        border: 2px solid white;
+      }
+    }
+    img {
+      width: 65%;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .opening-section {
+    background-color: $primary-color;
+    header {
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .right {
+      display: none;
+    }
+    img {
+      height: 3.5rem;
+      object-fit: cover;
+    }
+    .images {
+      padding-left: 1rem;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      height: 80%;
+      .description {
+        width: 50%;
+        height: 100%;
+        h3 {
+          color: white;
+          font-size: 1.5rem;
+        }
+        .bxs-chevron-right {
+          border-radius: 50%;
+          color: white;
+          font-size: 1rem;
+          margin-left: 0.5rem;
+          margin-bottom: 1rem;
+          border: 2px solid white;
+        }
+      }
+      img {
+        width: 65%;
+        object-fit: cover;
+        height: auto;
+      }
+    }
+  }
+}

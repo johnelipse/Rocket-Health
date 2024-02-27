@@ -1,0 +1,46 @@
+.icons {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  position: fixed;
+  left: 2rem;
+  top: 40%;
+  left: 1%;
+  z-index: 100;
+  .bx {
+    border-radius: 0.4rem;
+    font-size: 1.4rem;
+    padding: 0.3rem;
+  }
+  .bxl-facebook-circle {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bxl-twitter {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bxl-linkedin {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bx-plus-medical {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bxs-envelope {
+    color: white;
+    background-color: gray;
+  }
+  .bxl-whatsapp {
+    color: white;
+    background-color: rgb(6, 171, 6);
+  }
+}
+@media(max-width:360px){
+  .icons {
+    display: none;
+  }
+}
