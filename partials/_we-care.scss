@@ -1,0 +1,37 @@
+.we-care {
+min-height: 50vh;
+  padding: 2rem;
+  background-color: #fff8f1;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  h3 {
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+p{
+    font-size: 1.2rem;
+}
+}
+@media(max-width:360px){
+    .we-care {
+        min-height: 50vh;
+          padding: 2rem 1rem;
+          background-color: #fff8f1;
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          iframe{
+            width: 100%;
+          }
+          h3 {
+            padding-bottom: 1rem;
+            font-size: 1.8rem;
+            text-align: center;
+          }
+        p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        }    
+}

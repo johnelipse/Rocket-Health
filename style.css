@@ -155,8 +155,8 @@ body {
   padding: 1rem;
   position: fixed;
   left: 2rem;
-  top: 40%;
-  left: 1%;
+  top: 20%;
+  left: 0%;
   z-index: 100;
 }
 .icons .bx {
@@ -203,8 +203,12 @@ body {
 }
 .services-provided .rocket-wallet {
   display: flex;
-  gap: 3rem;
+  gap: 6rem;
   align-items: center;
+}
+.services-provided p {
+  padding-top: 1rem;
+  font-size: 1.1rem;
 }
 .services-provided .btn {
   padding-top: 2rem;
@@ -222,4 +226,239 @@ body {
 .services-provided a:hover {
   background-color: #1d6298;
   transition: 0.6s;
+}
+
+@media (max-width: 360px) {
+  .services-provided {
+    padding: 1rem;
+  }
+  .services-provided .special {
+    width: 21rem;
+    height: auto;
+  }
+  .services-provided img {
+    width: 21rem;
+    height: auto;
+  }
+  .services-provided .rocket-wallet {
+    display: flex;
+    flex-direction: column;
+    gap: 9rem;
+    align-items: flex-start;
+  }
+  .services-provided h3 {
+    padding-top: 1rem;
+  }
+  .services-provided p {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .services-provided .btn {
+    padding-top: 2rem;
+  }
+  .services-provided .bx-chevron-right {
+    color: white;
+    font-size: 1rem;
+  }
+  .services-provided a {
+    background-color: #f86448;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+  }
+  .services-provided a:hover {
+    background-color: #1d6298;
+    transition: 0.6s;
+  }
+}
+.we-care {
+  min-height: 50vh;
+  padding: 2rem;
+  background-color: #fff8f1;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.we-care h3 {
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.we-care p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 360px) {
+  .we-care {
+    min-height: 50vh;
+    padding: 2rem 1rem;
+    background-color: #fff8f1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .we-care iframe {
+    width: 100%;
+  }
+  .we-care h3 {
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .we-care p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.testimony {
+  padding: 3rem 4rem;
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.testimony img {
+  border-radius: 50%;
+}
+.testimony .names {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.testimony a {
+  color: black;
+}
+.testimony .links {
+  padding-top: 1rem;
+}
+.testimony .links .bx {
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+.testimony .links .bxl-facebook-circle {
+  color: white;
+  background-color: #0068fe;
+}
+.testimony .links .bxl-twitter {
+  color: white;
+  background-color: #0068fe;
+}
+.testimony .links .bxl-linkedin {
+  color: white;
+  background-color: #0068fe;
+}
+.testimony .links .bx-plus-medical {
+  color: white;
+  background-color: #0068fe;
+}
+.testimony .links .bxs-envelope {
+  color: white;
+  background-color: gray;
+}
+.testimony .links .bxl-whatsapp {
+  color: white;
+  background-color: rgb(6, 171, 6);
+}
+
+.link {
+  padding: 2rem 0.5rem;
+}
+.link .bx {
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+.link .bxl-facebook-circle {
+  color: white;
+  background-color: #0068fe;
+}
+.link .bxl-twitter {
+  color: white;
+  background-color: #0068fe;
+}
+.link .bxl-linkedin {
+  color: white;
+  background-color: #0068fe;
+}
+.link .bx-plus-medical {
+  color: white;
+  background-color: #0068fe;
+}
+.link .bxs-envelope {
+  color: white;
+  background-color: gray;
+}
+.link .bxl-whatsapp {
+  color: white;
+  background-color: rgb(6, 171, 6);
+}
+
+@media (max-width: 360px) {
+  .testimony {
+    padding: 3rem 2rem;
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+}
+footer {
+  background-color: #fff8f1;
+}
+footer .more-about-us {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .more-about-us img {
+  height: 4rem;
+}
+footer .more-about-us .rocket-health p {
+  padding-top: 1rem;
+}
+footer .more-about-us .rocket-health a {
+  color: #1d6298;
+}
+footer .more-about-us .rocket-health a:hover {
+  color: black;
+  transition: 0.5s;
+}
+footer .more-about-us .follow-us a {
+  color: #1d6298;
+}
+footer .more-about-us .follow-us .bx {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+footer .more-about-us h3 {
+  color: #f86448;
+  font-size: 1rem;
+}
+footer .more-about-us .usefull-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+footer .more-about-us .usefull-links h3 {
+  padding-bottom: 1rem;
+}
+footer .more-about-us .usefull-links a {
+  color: #1d6298;
+}
+footer .more-about-us .usefull-links a:hover {
+  color: black;
+  transition: 0.5s;
+}
+footer .copyright {
+  padding-bottom: 2rem;
+}
+footer .copyright p {
+  text-align: center;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */

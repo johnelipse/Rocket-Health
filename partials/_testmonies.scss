@@ -1,0 +1,95 @@
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.testimony {
+  padding: 3rem 4rem;
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  img {
+    border-radius: 50%;
+  }
+  .names {
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  a {
+    color: black;
+  }
+  .links {
+    padding-top: 1rem;
+    .bx {
+      border-radius: 0.4rem;
+      font-size: 1.2rem;
+      padding: 0.3rem;
+    }
+    .bxl-facebook-circle {
+      color: white;
+      background-color: #0068fe;
+    }
+    .bxl-twitter {
+      color: white;
+      background-color: #0068fe;
+    }
+    .bxl-linkedin {
+      color: white;
+      background-color: #0068fe;
+    }
+    .bx-plus-medical {
+      color: white;
+      background-color: #0068fe;
+    }
+    .bxs-envelope {
+      color: white;
+      background-color: gray;
+    }
+    .bxl-whatsapp {
+      color: white;
+      background-color: rgb(6, 171, 6);
+    }
+  }
+}
+.link {
+  padding: 2rem 0.5rem;
+  .bx {
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+  .bxl-facebook-circle {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bxl-twitter {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bxl-linkedin {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bx-plus-medical {
+    color: white;
+    background-color: #0068fe;
+  }
+  .bxs-envelope {
+    color: white;
+    background-color: gray;
+  }
+  .bxl-whatsapp {
+    color: white;
+    background-color: rgb(6, 171, 6);
+  }
+}
+@media(max-width:360px){
+  .testimony {
+    padding: 3rem 2rem;
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  } 
+}

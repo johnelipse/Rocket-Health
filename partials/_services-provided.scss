@@ -6,8 +6,12 @@ height: auto;
 }
 .rocket-wallet{
 display: flex;
-gap: 3rem;
+gap: 6rem;
 align-items: center;
+}
+p{
+    padding-top: 1rem;
+    font-size: 1.1rem;
 }
 .btn{
 padding-top: 2rem;
@@ -26,4 +30,47 @@ background-color: $primary-color;
 transition: 0.6s;
 }
 }  
+}
+@media(max-width:360px){
+    .services-provided{
+        padding: 1rem;
+        .special{
+        width: 21rem;
+        height: auto;
+        }
+        img{
+            width: 21rem;
+            height: auto;
+            }
+        .rocket-wallet{
+        display: flex;
+        flex-direction: column;
+        gap: 9rem;
+        align-items: flex-start;
+        }
+    h3{
+        padding-top: 1rem;
+    }
+        p{
+            padding-top: 1rem;
+            font-size: 1.1rem;
+        }
+        .btn{
+        padding-top: 2rem;
+        }
+        .bx-chevron-right{
+        color: white;
+        font-size: 1rem;
+        } 
+        a{
+        background-color: #f86448;
+        color: white;
+        border-radius: 1rem;
+        padding: 0.5rem 2rem;
+        &:hover{
+        background-color: $primary-color;
+        transition: 0.6s;
+        }
+        }  
+        }
 }

@@ -1,0 +1,60 @@
+footer {
+background-color: #fff8f1;
+  .more-about-us {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    // gap: 3rem;
+    img {
+      height: 4rem;
+    }
+    .rocket-health {
+      p {
+        padding-top: 1rem;
+      }
+      a {
+        color: $primary-color;
+        &:hover {
+          color: black;
+          transition: 0.5s;
+        }
+      }
+    }
+    .follow-us {
+      a {
+        color: $primary-color;
+      }
+      .bx {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+      }
+    }
+    h3 {
+      color: #f86448;
+      font-size: 1rem;
+    }
+    .usefull-links {
+      h3 {
+        padding-bottom: 1rem;
+      }
+      a {
+        color: $primary-color;
+        &:hover {
+          color: black;
+          transition: 0.5s;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  }
+.copyright{
+padding-bottom: 2rem;
+p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+}
+}
