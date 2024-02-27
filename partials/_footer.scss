@@ -113,6 +113,70 @@ p{
       }
     }  
 }
+@media(max-width:520px){
+  footer {
+    background-color: #fff8f1;
+      .more-about-us {
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        img {
+          height: 4rem;
+        }
+        .rocket-health {
+          p {
+            padding-top: 1rem;
+          }
+          a {
+            color: $primary-color;
+            &:hover {
+              color: black;
+              transition: 0.5s;
+            }
+          }
+        }
+        .follow-us {
+         h3{
+          text-align: left;
+         }
+          a {
+            color: $primary-color;
+          }
+          .bx {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+          }
+        }
+    .mailing{
+      h3{
+        text-align: left;
+       }  
+    }
+        h3 {
+          color: #f86448;
+          font-size: 1rem;
+        }
+        .usefull-links {
+          h3 {
+            padding-bottom: 1rem;
+          }
+          a {
+            color: $primary-color;
+            &:hover {
+              color: black;
+              transition: 0.5s;
+            }
+          }
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+        }
+      }
+   
+    }  
+}
 @media(max-width:484px){
   footer {
     background-color: #fff8f1;

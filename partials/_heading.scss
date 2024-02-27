@@ -6,6 +6,26 @@
     font-size: 2rem;
   }
 }
+@media(max-width:520px){
+  .heading {
+    h3 {
+      padding: 2rem 1rem;
+      padding-right: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }  
+}
+@media(max-width:484px){
+  .heading {
+    h3 {
+      padding: 2rem 1rem;
+      padding-right: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }  
+}
 @media(max-width:360px){
   .heading {
     h3 {

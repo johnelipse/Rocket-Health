@@ -1,154 +1,235 @@
-.services-provided{
-padding: 5rem;
-.special{
-width: 35rem;
-height: auto;
-}
-.rocket-wallet{
-display: flex;
-gap: 6rem;
-align-items: center;
-}
-p{
+.services-provided {
+  padding: 5rem;
+  .special {
+    width: 35rem;
+    height: auto;
+  }
+  .rocket-wallet {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+  }
+  p {
     padding-top: 1rem;
     font-size: 1.1rem;
-}
-.btn{
-padding-top: 2rem;
-}
-.bx-chevron-right{
-color: white;
-font-size: 1rem;
-} 
-a{
-background-color: #f86448;
-color: white;
-border-radius: 1rem;
-padding: 0.5rem 2rem;
-&:hover{
-background-color: $primary-color;
-transition: 0.6s;
-}
-}  
-}
-@media(max-width:780px){
-    .services-provided{
-        padding: 5rem;
-        .special{
-        width: 35rem;
-        height: auto;
-        }
-        .rocket-wallet{
-        display: flex;
-        gap: 6rem;
-        flex-direction: column;
-        }
-        p{
-            padding-top: 1rem;
-            font-size: 1.1rem;
-        }
-        .btn{
-        padding-top: 2rem;
-        }
-        .bx-chevron-right{
-        color: white;
-        font-size: 1rem;
-        } 
-        a{
-        background-color: #f86448;
-        color: white;
-        border-radius: 1rem;
-        padding: 0.5rem 2rem;
-        &:hover{
-        background-color: $primary-color;
-        transition: 0.6s;
-        }
-        }  
-        }
-}
-@media(max-width:484px){
-    .services-provided{
-        padding: 1rem;
-        .special{
-        width: 21rem;
-        height: auto;
-        }
-        img{
-            width: 21rem;
-            height: auto;
-            }
-        .rocket-wallet{
-        display: flex;
-        flex-direction: column;
-        gap: 9rem;
-        align-items: flex-start;
-        }
-    h3{
-        padding-top: 1rem;
+  }
+  .btn {
+    padding-top: 2rem;
+  }
+  .bx-chevron-right {
+    color: white;
+    font-size: 1rem;
+  }
+  a {
+    background-color: #f86448;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    &:hover {
+      background-color: $primary-color;
+      transition: 0.6s;
     }
-        p{
-            padding-top: 1rem;
-            font-size: 1.1rem;
-        }
-        .btn{
-        padding-top: 2rem;
-        }
-        .bx-chevron-right{
-        color: white;
-        font-size: 1rem;
-        } 
-        a{
-        background-color: #f86448;
-        color: white;
-        border-radius: 1rem;
-        padding: 0.5rem 2rem;
-        &:hover{
-        background-color: $primary-color;
-        transition: 0.6s;
-        }
-        }  
-        }
+  }
 }
-@media(max-width:360px){
-    .services-provided{
-        padding: 1rem;
-        .special{
-        width: 21rem;
-        height: auto;
-        }
-        img{
-            width: 21rem;
-            height: auto;
-            }
-        .rocket-wallet{
-        display: flex;
-        flex-direction: column;
-        gap: 9rem;
-        align-items: flex-start;
-        }
-    h3{
-        padding-top: 1rem;
+@media (max-width: 945px) {
+  .services-provided {
+    padding: 5rem;
+    .special {
+      width: 35rem;
+      height: auto;
     }
-        p{
-            padding-top: 1rem;
-            font-size: 1.1rem;
-        }
-        .btn{
-        padding-top: 2rem;
-        }
-        .bx-chevron-right{
-        color: white;
-        font-size: 1rem;
-        } 
-        a{
-        background-color: #f86448;
-        color: white;
-        border-radius: 1rem;
-        padding: 0.5rem 2rem;
-        &:hover{
+    .rocket-wallet {
+      display: flex;
+      gap: 6rem;
+      flex-direction: column;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      padding-top: 2rem;
+    }
+    .bx-chevron-right {
+      color: white;
+      font-size: 1rem;
+    }
+    a {
+      background-color: #f86448;
+      color: white;
+      border-radius: 1rem;
+      padding: 0.5rem 2rem;
+      &:hover {
         background-color: $primary-color;
         transition: 0.6s;
-        }
-        }  
-        }
+      }
+    }
+  }
+}
+@media (max-width: 780px) {
+  .services-provided {
+    padding: 5rem;
+    .special {
+      width: 35rem;
+      height: auto;
+    }
+    .rocket-wallet {
+      display: flex;
+      gap: 3rem;
+      flex-direction: column;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      padding-top: 2rem;
+    }
+    .bx-chevron-right {
+      color: white;
+      font-size: 1rem;
+    }
+    a {
+      background-color: #f86448;
+      color: white;
+      border-radius: 1rem;
+      padding: 0.5rem 2rem;
+      &:hover {
+        background-color: $primary-color;
+        transition: 0.6s;
+      }
+    }
+  }
+}
+@media (max-width: 520px) {
+  .services-provided {
+    padding: 1rem;
+    .special {
+      width: 21rem;
+      height: auto;
+    }
+    img {
+      width: 21rem;
+      height: auto;
+    }
+    .rocket-wallet {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    h3 {
+      padding-top: 1rem;
+      font-size: 1.4rem;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      padding-top: 2rem;
+    }
+    .bx-chevron-right {
+      color: white;
+      font-size: 1rem;
+    }
+    a {
+      background-color: #f86448;
+      color: white;
+      border-radius: 1rem;
+      padding: 0.5rem 2rem;
+      &:hover {
+        background-color: $primary-color;
+        transition: 0.6s;
+      }
+    }
+  }
+}
+@media (max-width: 484px) {
+  .services-provided {
+    padding: 1rem;
+    .special {
+      width: 21rem;
+      height: auto;
+    }
+    img {
+      width: 21rem;
+      height: auto;
+    }
+    .rocket-wallet {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    h3 {
+    font-size: 1.4rem;
+      padding-top: 1rem;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      padding-top: 2rem;
+    }
+    .bx-chevron-right {
+      color: white;
+      font-size: 1rem;
+    }
+    a {
+      background-color: #f86448;
+      color: white;
+      border-radius: 1rem;
+      padding: 0.5rem 2rem;
+      &:hover {
+        background-color: $primary-color;
+        transition: 0.6s;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .services-provided {
+    padding: 1rem;
+    .special {
+      width: 21rem;
+      height: auto;
+    }
+    img {
+      width: 21rem;
+      height: auto;
+    }
+    .rocket-wallet {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    h3 {
+      padding-top: 1rem;
+      font-size: 1.3rem;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+    .btn {
+      padding-top: 2rem;
+    }
+    .bx-chevron-right {
+      color: white;
+      font-size: 1rem;
+    }
+    a {
+      background-color: #f86448;
+      color: white;
+      border-radius: 1rem;
+      padding: 0.5rem 2rem;
+      &:hover {
+        background-color: $primary-color;
+        transition: 0.6s;
+      }
+    }
+  }
 }
