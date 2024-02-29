@@ -262,7 +262,7 @@ body {
     background-color: #1d6298;
   }
   .opening-section header {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -620,7 +620,7 @@ body {
     background-color: #f86448;
     color: white;
     border-radius: 1rem;
-    padding: 0.5rem 2rem;
+    padding: 0.2rem 1rem;
   }
   .services-provided a:hover {
     background-color: #1d6298;
