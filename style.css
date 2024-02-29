@@ -15,7 +15,7 @@ h3 {
 }
 
 p {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 body {
@@ -522,7 +522,7 @@ body {
   }
   .services-provided p {
     padding-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .services-provided .btn {
     padding-top: 2rem;
@@ -566,7 +566,7 @@ body {
   }
   .services-provided p {
     padding-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 14px;
   }
   .services-provided .btn {
     padding-top: 2rem;
@@ -610,7 +610,7 @@ body {
   }
   .services-provided p {
     padding-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 14px;
   }
   .services-provided .btn {
     padding-top: 2rem;
@@ -685,7 +685,7 @@ body {
     text-align: center;
   }
   .we-care p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 }
@@ -703,11 +703,11 @@ body {
   }
   .we-care h3 {
     padding-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-align: center;
   }
   .we-care p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
@@ -729,7 +729,7 @@ body {
     text-align: center;
   }
   .we-care p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
@@ -824,6 +824,11 @@ h3 {
 }
 
 @media (max-width: 360px) {
+  h3 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
   .testimony {
     padding: 3rem 2rem;
     padding-top: 1.5rem;
