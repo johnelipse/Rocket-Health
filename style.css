@@ -58,25 +58,29 @@ body {
 .opening-section .images {
   display: flex;
   width: 100%;
+  justify-content: center;
   align-items: center;
-  padding: 0 4rem;
+  padding: 0 6rem;
+  padding-right: 6rem;
+}
+.opening-section .images .description {
+  text-align: left;
 }
 .opening-section .images .description h3 {
   color: white;
   font-size: 3.5rem;
+  text-align: left;
 }
 .opening-section .images .description .bxs-chevron-right {
   border-radius: 50%;
   color: white;
   font-size: 3rem;
-  margin-left: 4rem;
   border: 2px solid white;
 }
 .opening-section .images img {
-  width: 65%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: auto;
+  padding-bottom: 2rem;
+  width: 70%;
+  height: 50%;
 }
 
 @media (max-width: 945px) {
@@ -143,23 +147,24 @@ body {
   .opening-section .images {
     display: flex;
     width: 100%;
-    align-items: center;
-    height: 80%;
-    padding: 0 4rem;
+    align-items: normal;
+    padding: 0 2rem;
+    padding-left: 4rem;
   }
   .opening-section .images .description h3 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 2.6rem;
   }
   .opening-section .images .description .bxs-chevron-right {
     border-radius: 50%;
     color: white;
-    font-size: 3rem;
-    margin-left: 4rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: start;
     border: 2px solid white;
   }
   .opening-section .images img {
-    width: 65%;
+    width: 55%;
     -o-object-fit: cover;
        object-fit: cover;
     height: auto;
@@ -170,7 +175,7 @@ body {
     background-color: #1d6298;
   }
   .opening-section header {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -187,8 +192,8 @@ body {
     padding-left: 1rem;
     display: flex;
     width: 100%;
-    align-items: center;
-    height: 80%;
+    align-items: normal;
+    padding-right: 2rem;
   }
   .opening-section .images .description h3 {
     color: white;
@@ -198,12 +203,11 @@ body {
     border-radius: 50%;
     color: white;
     font-size: 1rem;
-    margin-left: 0.5rem;
     margin-bottom: 1rem;
     border: 2px solid white;
   }
   .opening-section .images img {
-    width: 65%;
+    width: 50%;
     -o-object-fit: cover;
        object-fit: cover;
     height: auto;
@@ -214,7 +218,7 @@ body {
     background-color: #1d6298;
   }
   .opening-section header {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -229,10 +233,10 @@ body {
   }
   .opening-section .images {
     padding-left: 1rem;
+    padding-right: 2rem;
     display: flex;
     width: 100%;
-    align-items: center;
-    height: 80%;
+    align-items: normal;
   }
   .opening-section .images .description h3 {
     color: white;
@@ -242,12 +246,12 @@ body {
     border-radius: 50%;
     color: white;
     font-size: 1rem;
-    margin-left: 0.5rem;
-    margin-bottom: 1rem;
+    text-align: left;
+    margin-top: 1rem;
     border: 2px solid white;
   }
   .opening-section .images img {
-    width: 65%;
+    width: 43%;
     -o-object-fit: cover;
        object-fit: cover;
     height: auto;
@@ -272,8 +276,9 @@ body {
        object-fit: cover;
   }
   .opening-section .images {
-    padding-left: 0rem;
+    padding-left: 1rem;
     display: flex;
+    padding-right: 2rem;
     width: 100%;
     align-items: center;
     height: 80%;
@@ -286,13 +291,13 @@ body {
     border-radius: 50%;
     color: white;
     font-size: 1rem;
-    margin-left: 1rem;
+    text-align: start;
     margin-bottom: 1rem;
     margin-top: 1rem;
     border: 2px solid white;
   }
   .opening-section .images img {
-    width: 65%;
+    width: 39%;
     -o-object-fit: cover;
        object-fit: cover;
     height: auto;
