@@ -623,7 +623,8 @@ body {
     background-color: #f86448;
     color: white;
     border-radius: 1rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
   }
   .services-provided a:hover {
     background-color: #1d6298;
