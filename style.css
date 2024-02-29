@@ -290,9 +290,8 @@ body {
   .opening-section .images .description .bxs-chevron-right {
     border-radius: 50%;
     color: white;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: start;
-    margin-bottom: 1rem;
     margin-top: 1rem;
     border: 2px solid white;
   }
